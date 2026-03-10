@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  eslint: { ignoreDuringBuilds: true }, // opcional: evita que el build falle por lint
+  eslint: { ignoreDuringBuilds: true },
 };
 
 export default nextConfig;

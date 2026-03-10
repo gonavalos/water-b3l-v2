@@ -4,11 +4,14 @@
 import Container from "../ui/Container";
 import { Mail, Phone, MapPin, Clock, ArrowRight } from "lucide-react";
 import React from "react";
+import { useI18n } from "@/lib/i18n-context";
 
 const TEAL = "#009fa6";
 const BLUE = "#0e3a5d";
 
 export default function ContactSplit() {
+  const { t } = useI18n();
+
   return (
     <section
       id="contacto"
@@ -19,22 +22,16 @@ export default function ContactSplit() {
         {/* Cabecera */}
         <header className="mb-8 md:mb-12">
           <div className="mb-5">
-            <p className="text-[12px] font-semibold tracking-widest text-slate-900">
-              CONTACTO
+            <p className="text-[11px] font-bold tracking-[0.22em] uppercase mb-3" style={{ color: TEAL }}>
+              {t.contact.label}
             </p>
-            <div
-              className="mt-1 ml-1 h-1 w-14 rounded-full"
-              style={{
-                background: `linear-gradient(90deg, ${TEAL}, rgba(0,159,166,.4))`,
-              }}
-            />
+            <div className="accent-bar ml-1" />
           </div>
-          <h2 className="text-3xl sm:text-4xl font-semibold text-slate-900">
-            Hablemos de tu proyecto
+          <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-slate-900">
+            {t.contact.title}
           </h2>
           <p className="mt-2 max-w-2xl text-slate-600">
-            Contanos objetivos y plazos. Te respondemos con la mejor ruta técnica y
-            un marco de trabajo claro.
+            {t.contact.subtitle}
           </p>
         </header>
 
@@ -50,10 +47,9 @@ export default function ContactSplit() {
                 borderColor: "rgba(226,232,240,1)",
               }}
             >
-              <h3 className="text-lg font-semibold text-slate-900">Cómo colaboramos</h3>
+              <h3 className="text-lg font-semibold text-slate-900">{t.contact.howTitle}</h3>
               <p className="mt-3 leading-relaxed text-slate-700">
-                Inicio ágil (kick-off), definición de KPIs y cronograma técnico.
-                Entregas trazables y comparables en cada hito.
+                {t.contact.howDesc}
               </p>
 
               <div className="mt-4 h-px bg-slate-200" />
@@ -64,7 +60,7 @@ export default function ContactSplit() {
                     <Mail className="h-5 w-5" />
                   </span>
                   <div className="leading-5">
-                    <div className="font-medium text-slate-900">Email</div>
+                    <div className="font-medium text-slate-900">{t.contact.formEmail}</div>
                     <a
                       href="mailto:hola@waterb3l.com"
                       className="text-slate-700 hover:opacity-90"
@@ -79,7 +75,7 @@ export default function ContactSplit() {
                     <Phone className="h-5 w-5" />
                   </span>
                   <div className="leading-5">
-                    <div className="font-medium text-slate-900">Teléfono</div>
+                    <div className="font-medium text-slate-900">{t.contact.phone}</div>
                     <a
                       href="tel:+34111222333"
                       className="text-slate-700 hover:opacity-90"
@@ -94,8 +90,8 @@ export default function ContactSplit() {
                     <MapPin className="h-5 w-5" />
                   </span>
                   <div className="leading-5">
-                    <div className="font-medium text-slate-900">Ubicación</div>
-                    <p className="text-slate-700">Barcelona · Remoto / On-site</p>
+                    <div className="font-medium text-slate-900">{t.contact.location}</div>
+                    <p className="text-slate-700">{t.contact.locationValue}</p>
                   </div>
                 </li>
 
@@ -104,8 +100,8 @@ export default function ContactSplit() {
                     <Clock className="h-5 w-5" />
                   </span>
                   <div className="leading-5">
-                    <div className="font-medium text-slate-900">Respuesta</div>
-                    <p className="text-slate-700">24–48 h hábiles</p>
+                    <div className="font-medium text-slate-900">{t.contact.response}</div>
+                    <p className="text-slate-700">{t.contact.responseValue}</p>
                   </div>
                 </li>
               </ul>
@@ -122,7 +118,7 @@ export default function ContactSplit() {
               <div className="grid gap-4 sm:grid-cols-2">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-slate-900">
-                    Nombre
+                    {t.contact.formName}
                   </label>
                   <input
                     id="name"
@@ -130,13 +126,13 @@ export default function ContactSplit() {
                     autoComplete="name"
                     required
                     className="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-[#009fa6] focus:border-[#009fa6]"
-                    placeholder="Tu nombre"
+                    placeholder={t.contact.formNamePh}
                   />
                 </div>
 
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-slate-900">
-                    Email
+                    {t.contact.formEmail}
                   </label>
                   <input
                     id="email"
@@ -151,33 +147,33 @@ export default function ContactSplit() {
 
                 <div>
                   <label htmlFor="company" className="block text-sm font-medium text-slate-900">
-                    Organización
+                    {t.contact.formOrg}
                   </label>
                   <input
                     id="company"
                     name="company"
                     autoComplete="organization"
                     className="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-[#009fa6] focus:border-[#009fa6]"
-                    placeholder="Empresa / Municipio / Consultora"
+                    placeholder={t.contact.formOrgPh}
                   />
                 </div>
 
                 <div>
                   <label htmlFor="subject" className="block text-sm font-medium text-slate-900">
-                    Asunto
+                    {t.contact.formSubject}
                   </label>
                   <input
                     id="subject"
                     name="subject"
                     autoComplete="off"
                     className="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-[#009fa6] focus:border-[#009fa6]"
-                    placeholder="Breve resumen"
+                    placeholder={t.contact.formSubjectPh}
                   />
                 </div>
 
                 <div className="sm:col-span-2">
                   <label htmlFor="message" className="block text-sm font-medium text-slate-900">
-                    Mensaje
+                    {t.contact.formMessage}
                   </label>
                   <textarea
                     id="message"
@@ -185,21 +181,21 @@ export default function ContactSplit() {
                     rows={5}
                     required
                     className="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-[#009fa6] focus:border-[#009fa6]"
-                    placeholder="Contexto, objetivos, plazos…"
+                    placeholder={t.contact.formMessagePh}
                   />
                 </div>
               </div>
 
               <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                 <p className="text-xs text-slate-500">
-                  Al enviar aceptás nuestro tratamiento de datos según política de privacidad.
+                  {t.contact.formPrivacy}
                 </p>
                 <button
                   type="submit"
                   className="inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-medium transition focus-visible:outline-none focus-visible:ring-2"
                   style={{ backgroundColor: BLUE, color: "#fff" }}
                 >
-                  Enviar mensaje
+                  {t.contact.formSubmit}
                   <ArrowRight className="h-4 w-4" />
                 </button>
               </div>

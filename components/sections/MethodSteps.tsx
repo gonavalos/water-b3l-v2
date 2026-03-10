@@ -236,7 +236,7 @@ export default function Methodology() {
             <ChevronLeft className="h-5 w-5" />
           </button>
 
-        <p className="text-xs text-slate-600" aria-live="polite">
+          <p className="text-xs text-slate-600" aria-live="polite">
             Mostrando {start}–{end} de {STEPS.length}
           </p>
 
