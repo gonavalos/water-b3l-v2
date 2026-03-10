@@ -14,7 +14,7 @@ export default function Home() {
             <Hero />
             <About />
             <GlobalPresenceMap />
-            <ServicesShowcase items={servicesData} />
+            <ServicesShowcase />
             <CasesSpotlightSlider cases={casesData} />
             <ContactSplit />
             <AiSeoContent />
