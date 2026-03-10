@@ -60,7 +60,7 @@ export default function ContactSplit() {
                     <Mail className="h-5 w-5" />
                   </span>
                   <div className="leading-5">
-                    <div className="font-medium text-slate-900">{t.contact.formEmail}</div>
+                    <div className="font-medium text-slate-900">{t.contact.emailLabel}</div>
                     <a
                       href="mailto:hola@waterb3l.com"
                       className="text-slate-700 hover:opacity-90"
@@ -75,7 +75,7 @@ export default function ContactSplit() {
                     <Phone className="h-5 w-5" />
                   </span>
                   <div className="leading-5">
-                    <div className="font-medium text-slate-900">{t.contact.phone}</div>
+                    <div className="font-medium text-slate-900">{t.contact.phoneLabel}</div>
                     <a
                       href="tel:+34111222333"
                       className="text-slate-700 hover:opacity-90"
@@ -90,7 +90,7 @@ export default function ContactSplit() {
                     <MapPin className="h-5 w-5" />
                   </span>
                   <div className="leading-5">
-                    <div className="font-medium text-slate-900">{t.contact.location}</div>
+                    <div className="font-medium text-slate-900">{t.contact.locationLabel}</div>
                     <p className="text-slate-700">{t.contact.locationValue}</p>
                   </div>
                 </li>
@@ -100,7 +100,7 @@ export default function ContactSplit() {
                     <Clock className="h-5 w-5" />
                   </span>
                   <div className="leading-5">
-                    <div className="font-medium text-slate-900">{t.contact.response}</div>
+                    <div className="font-medium text-slate-900">{t.contact.responseLabel}</div>
                     <p className="text-slate-700">{t.contact.responseValue}</p>
                   </div>
                 </li>
