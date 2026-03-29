@@ -48,9 +48,20 @@ export default function ContactSplit() {
               }}
             >
               <h3 className="text-lg font-semibold text-slate-900">{t.contact.howTitle}</h3>
-              <p className="mt-3 leading-relaxed text-slate-700">
-                {t.contact.howDesc}
-              </p>
+              <ol className="mt-3 space-y-2 text-slate-700 leading-relaxed">
+                <li className="flex items-start gap-2">
+                  <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[10px] font-bold text-white" style={{ backgroundColor: TEAL }}>1</span>
+                  <span>{t.contact.howStep1}</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[10px] font-bold text-white" style={{ backgroundColor: TEAL }}>2</span>
+                  <span>{t.contact.howStep2}</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[10px] font-bold text-white" style={{ backgroundColor: TEAL }}>3</span>
+                  <span>{t.contact.howStep3}</span>
+                </li>
+              </ol>
 
               <div className="mt-4 h-px bg-slate-200" />
 
@@ -77,10 +88,10 @@ export default function ContactSplit() {
                   <div className="leading-5">
                     <div className="font-medium text-slate-900">{t.contact.phoneLabel}</div>
                     <a
-                      href="tel:+34111222333"
+                      href="tel:+34624012778"
                       className="text-slate-700 hover:opacity-90"
                     >
-                      +34 111 222 333
+                      +34 624 01 27 78
                     </a>
                   </div>
                 </li>
@@ -162,13 +173,17 @@ export default function ContactSplit() {
                   <label htmlFor="subject" className="block text-sm font-medium text-slate-900">
                     {t.contact.formSubject}
                   </label>
-                  <input
+                  <select
                     id="subject"
                     name="subject"
-                    autoComplete="off"
-                    className="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-[#009fa6] focus:border-[#009fa6]"
-                    placeholder={t.contact.formSubjectPh}
-                  />
+                    className="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-[#009fa6] focus:border-[#009fa6] bg-white"
+                    defaultValue=""
+                  >
+                    <option value="" disabled>{t.contact.formSubject}</option>
+                    {t.contact.formSubjectOptions.map((opt) => (
+                      <option key={opt} value={opt}>{opt}</option>
+                    ))}
+                  </select>
                 </div>
 
                 <div className="sm:col-span-2">

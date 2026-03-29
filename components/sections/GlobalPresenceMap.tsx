@@ -23,18 +23,32 @@ const ACTIVE_COUNTRIES = new Set([
     "300", // Grecia
     "840", // Estados Unidos
     "214", // República Dominicana
-    "826", // Reino Unido
+    "380", // Italia
+    "376", // Israel
+    "392", // Japón
 ]);
 
 const PROJECT_MARKERS = [
-    { name: "Barcelona", coordinates: [2.15, 41.38] as [number, number], country: "España" },
-    { name: "Buenos Aires", coordinates: [-58.38, -34.6] as [number, number], country: "Argentina" },
-    { name: "Córdoba", coordinates: [-64.18, -31.42] as [number, number], country: "Argentina" },
-    { name: "Paris", coordinates: [2.35, 48.85] as [number, number], country: "Francia" },
-    { name: "Stockholm", coordinates: [18.07, 59.33] as [number, number], country: "Suecia" },
-    { name: "Athens", coordinates: [23.73, 37.98] as [number, number], country: "Grecia" },
-    { name: "New York", coordinates: [-74.0, 40.71] as [number, number], country: "EE.UU." },
-    { name: "Santo Domingo", coordinates: [-69.9, 18.48] as [number, number], country: "Rep. Dominicana" },
+    { name: "Córdoba", coordinates: [-64.1888, -31.4201] as [number, number], country: "Argentina" },
+    { name: "Suardi", coordinates: [-61.9599, -30.5349] as [number, number], country: "Argentina" },
+    { name: "Buenos Aires", coordinates: [-58.3816, -34.6037] as [number, number], country: "Argentina" },
+    { name: "San Salvador de Jujuy", coordinates: [-65.2971, -24.1946] as [number, number], country: "Argentina" },
+    { name: "El Calafate", coordinates: [-72.2768, -50.3408] as [number, number], country: "Argentina" },
+    { name: "Barcelona", coordinates: [2.1734, 41.3851] as [number, number], country: "España" },
+    { name: "Madrid", coordinates: [-3.7038, 40.4168] as [number, number], country: "España" },
+    { name: "Valencia", coordinates: [-0.3763, 39.4699] as [number, number], country: "España" },
+    { name: "Córdoba", coordinates: [-4.7794, 37.8882] as [number, number], country: "España" },
+    { name: "Tenerife", coordinates: [-16.2518, 28.4636] as [number, number], country: "España" },
+    { name: "Heraklion", coordinates: [25.1483, 35.3387] as [number, number], country: "Grecia" },
+    { name: "Larissa", coordinates: [22.4191, 39.639] as [number, number], country: "Grecia" },
+    { name: "Turín", coordinates: [7.6869, 45.0703] as [number, number], country: "Italia" },
+    { name: "Jerusalén", coordinates: [35.2137, 31.7683] as [number, number], country: "Israel" },
+    { name: "Tokio", coordinates: [139.6917, 35.6895] as [number, number], country: "Japón" },
+    { name: "Puerto Plata", coordinates: [-70.6884, 19.7934] as [number, number], country: "Rep. Dominicana" },
+    { name: "Riverside", coordinates: [-117.3962, 33.9533] as [number, number], country: "EE.UU." },
+    { name: "Phoenix", coordinates: [-112.074, 33.4484] as [number, number], country: "EE.UU." },
+    { name: "Piteå", coordinates: [21.4833, 65.3167] as [number, number], country: "Suecia" },
+    { name: "Reims", coordinates: [4.0347, 49.2628] as [number, number], country: "Francia" },
 ];
 
 const TEAL = "#0FA3B1";
@@ -53,7 +67,9 @@ const COUNTRIES_LIST = [
     { flag: "🇬🇷", name: "Grecia" },
     { flag: "🇺🇸", name: "EE.UU." },
     { flag: "🇩🇴", name: "Rep. Dominicana" },
-    { flag: "🇬🇧", name: "Reino Unido" },
+    { flag: "🇮🇹", name: "Italia" },
+    { flag: "🇮🇱", name: "Israel" },
+    { flag: "🇯🇵", name: "Japón" },
 ];
 
 export default function GlobalPresenceMap() {

@@ -120,8 +120,6 @@ export default function CasesSpotlightSlider({ cases, moreHref = "/casos" }: { c
             <div className="flex items-center gap-3 flex-wrap mt-1">
               <a href="#contacto" className="inline-flex items-center rounded-xl px-5 py-2.5 text-sm font-semibold text-[#07111f] transition hover:opacity-90"
                 style={{ background: "white" }}>{c.cta}</a>
-              <a href={moreHref} className="inline-flex items-center rounded-xl px-4 py-2.5 text-sm font-medium transition hover:opacity-75"
-                style={{ color: TEAL_LIGHT, border: "1px solid rgba(95,214,212,0.28)", background: "transparent" }}>{c.viewMore}</a>
             </div>
           </article>
           {/* LEFT: Image */}
@@ -132,16 +130,6 @@ export default function CasesSpotlightSlider({ cases, moreHref = "/casos" }: { c
                 fill className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" priority={idx === 0} />
               <div className="absolute inset-0" style={{ background: "linear-gradient(180deg, rgba(7,17,31,0) 40%, rgba(7,17,31,0.85) 100%)" }} />
               <div className="absolute bottom-0 left-0 right-0 p-4">
-                <div className="flex flex-wrap gap-1.5 mb-2">
-                  <span className="inline-flex items-center rounded-full px-2.5 py-0.5 text-[11px] font-semibold"
-                    style={{ color: TEAL_LIGHT, background: "rgba(95,214,212,0.15)", border: "1px solid rgba(95,214,212,0.25)" }}>
-                    {current.sector}
-                  </span>
-                  {current.tags?.slice(0, 3).map((tag) => (
-                    <span key={tag} className="inline-flex items-center rounded-full px-2.5 py-0.5 text-[11px] text-white/55"
-                      style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)" }}>{tag}</span>
-                  ))}
-                </div>
                 <h3 className="text-lg sm:text-xl font-bold text-white leading-snug tracking-tight">{caseTitle}</h3>
                 <div className="mt-1 flex items-center gap-1.5 text-xs text-white/55">
                   <MapPin className="h-3 w-3 shrink-0" style={{ color: TEAL }} />

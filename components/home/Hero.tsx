@@ -27,12 +27,6 @@ export default function Hero() {
       <div className="min-h-[92vh] lg:min-h-screen pt-20 md:pt-24 flex items-center">
         <Container>
           <div className="max-w-[480px] lg:relative lg:right-65">
-            <div className="mb-5 inline-flex items-center gap-2 rounded-full px-4 py-1.5"
-              style={{ background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.15)", backdropFilter: "blur(8px)" }}>
-              <span className="h-1.5 w-1.5 rounded-full animate-pulse" style={{ backgroundColor: "#5FD6D4" }} />
-              <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-white/80">{h.badge}</span>
-            </div>
-
             <h1 className="leading-[1.05]">
               <span className="block text-4xl sm:text-5xl lg:text-[3.5rem] font-extrabold tracking-tight text-white">
                 {h.titleLine1}
@@ -69,7 +63,7 @@ export default function Hero() {
             </ul>
 
             <div className="mt-8 flex gap-6 pt-6" style={{ borderTop: "1px solid rgba(255,255,255,0.1)" }}>
-              {[{ val: "+8", label: h.statCountries }, { val: "+50", label: h.statProjects }, { val: "15+", label: h.statExp }].map(({ val, label }) => (
+              {[{ val: "+10", label: h.statCountries }, { val: "+50", label: h.statProjects }, { val: "15+", label: h.statExp }].map(({ val, label }) => (
                 <div key={label}>
                   <div className="text-xl font-extrabold text-white tabular-nums">{val}</div>
                   <div className="text-[10px] text-white/45 uppercase tracking-wider mt-0.5">{label}</div>

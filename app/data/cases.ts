@@ -31,217 +31,210 @@ export const casesData: CaseItem[] = [
     title: "Estudios de inundabilidad y drenaje para permisos y diseño de obras",
     title_en: "Flood and Drainage Studies for Permits and Design",
     sector: "Inundabilidad",
-    location: "España · Francia · Suecia · Grecia · Argentina · EE.UU. · Rep. Dominicana",
-    year: 2024,
+    location: "España · Francia · Suecia · Grecia · Italia · Argentina · EE.UU. · Rep. Dominicana",
+    year: 2025,
     imageSrc: "/images/cases/case1v2.png",
     imageInsetSrc: "/images/cases/case1v2.png",
     summary:
-      "Realizamos estudios de inundabilidad, escorrentía y drenaje para clientes públicos y privados en más de 7 países, aplicando normativa y guías técnicas locales para tramitación ante organismos de cuenca y autoridades ambientales.",
+      "Desarrollamos estudios de inundabilidad, escorrentía y drenaje para clientes públicos y privados, aplicando normativa y guías técnicas locales y generando documentación lista para tramitación. Estos trabajos se realizaron en más de 8 países, en proyectos vinculados a permisos, ampliaciones, regularizaciones y diseño de obras.",
     summary_en:
-      "We carried out flood, runoff and drainage studies for public and private clients across 7+ countries, applying local technical regulations for permitting before basin authorities.",
+      "We developed flood, runoff and drainage studies for public and private clients, applying local regulations and technical guidelines and producing documentation ready for permitting. These projects were carried out in over 8 countries, linked to permits, expansions, regularisations and works design.",
     details: {
       objetivo:
-        "Nuestro objetivo fue dar respuesta a los requerimientos de organismos públicos —administraciones locales, organismos de cuenca y autoridades ambientales— solicitados al cliente para obtener permisos de construcción, ampliación o regularización de obras. En cada caso, adaptamos el enfoque a la normativa vigente del país y al tipo de intervención proyectada.",
+        "Dar respuesta a requerimientos de administraciones locales, organismos de cuenca y autoridades ambientales para obtener permisos de construcción, ampliación o regularización, adaptando cada estudio a la normativa y al tipo de intervención proyectada.",
       metodologia:
-        "Desarrollamos modelos hidrológicos e hidráulicos adaptados a la normativa local de cada país. Delimitamos zonas inundables, evaluamos afecciones sobre bienes e infraestructuras y, cuando fue necesario, diseñamos medidas y obras de drenaje. Cada estudio contempló análisis de periodos de retorno, generación de cartografía de inundabilidad y criterios de diseño consistentes con los requerimientos del regulador.",
+        "Desarrollamos modelos hidrológicos e hidráulicos, delimitamos zonas inundables, evaluamos afecciones sobre el entorno y, cuando fue necesario, diseñamos medidas y obras de drenaje compatibles con el proyecto y con el marco regulatorio aplicable.",
       validacion:
-        "Calibramos los modelos con datos históricos disponibles y contrastamos los resultados con cartografías oficiales de inundabilidad (SNCZI, BDMV u equivalentes locales). En los casos con información de campo, ajustamos los modelos con registros de nivel e hidrogramas de eventos documentados.",
+        "Contrastamos resultados con criterios normativos locales, consistencia hidrológico-hidráulica, cartografía topográfica disponible y, cuando aplica, con información observada o antecedentes técnicos del sitio.",
       entregables:
-        "Entregamos memorias técnicas, cartografía de inundabilidad (zonas de flujo preferente, zona inundable T100/T500), planos de afecciones, criterios de diseño de drenaje y documentación lista para tramitación ante el organismo competente.",
+        "Memorias técnicas, cartografía temática, delimitación de zonas inundables, criterios de diseño y documentación de soporte para presentación ante organismos competentes. Cuando el cliente lo solicitó, también se entregaron archivos editables y archivos de trabajo asociados al estudio.",
     },
     kpis: [
-      { label: "Países", value: "+7", icon: "gauge" },
+      { label: "Países", value: "+8", icon: "gauge" },
       { label: "Proyectos", value: "+20", icon: "activity" },
     ],
-    tags: ["Inundabilidad", "HEC-RAS", "Iber", "Permisos", "Multipaís"],
-    countries: "España · Francia · Suecia · Grecia · Argentina · EE.UU. · Rep. Dominicana",
-    href: "/casos/inundabilidad-drenaje-permisos",
+    tags: ["Riesgo de inundación", "HEC-RAS", "Iber", "Permisos"],
+    countries: "España · Francia · Suecia · Grecia · Italia · Argentina · EE.UU. · Rep. Dominicana",
   },
   {
     id: "seguridad-presas-espana",
-    title: "Documentación de Seguridad de Presas en España",
+    title: "Documentación de seguridad de presas en España",
     title_en: "Dam Safety Documentation in Spain",
     sector: "Presas",
     location: "España",
-    year: 2024,
+    year: 2025,
     imageSrc: "/images/cases/case2v2.png",
     imageInsetSrc: "/images/cases/case2v2.png",
     summary:
-      "Elaboramos documentación de seguridad de presas en España, destinada a su presentación ante diversas Confederaciones Hidrográficas. Seguimos estrictamente las guías técnicas vigentes y acompañamos el proceso hasta la aprobación de cada documento.",
+      "Elaboramos documentación de seguridad de presas en España para su presentación ante Confederaciones Hidrográficas, incorporando cuando aplica la modelación hidráulica de escenarios de rotura.",
     summary_en:
-      "We produced dam safety documentation in Spain for submission to multiple River Basin Authorities, following applicable technical guidelines and supporting each project through to formal approval.",
+      "We prepared dam safety documentation in Spain for submission to River Basin Authorities, incorporating hydraulic breach scenario modelling when applicable.",
     details: {
       objetivo:
-        "Nuestro objetivo fue elaborar los documentos de seguridad requeridos por la Directiva Técnica de Seguridad de Presas e Infraestructuras Hidráulicas: Planes de Emergencia (PEP), Normas de Explotación, Propuestas de Clasificación y Planes de Autoprotección, para su presentación y aprobación ante las distintas Confederaciones Hidrográficas.",
+        "Elaborar propuestas de clasificación, normas de explotación, planes de emergencia, planes de autoprotección, entre otros documentos de seguridad de presas, asegurando trazabilidad técnica y cumplimiento de la normativa vigente.",
       metodologia:
-        "Seguimos de forma estricta las guías de elaboración de cada tipo de documento, integrando el conocimiento de la presa, su cuenca, los elementos en riesgo aguas abajo y los protocolos de actuación ante emergencias. Cuando el alcance lo requirió, realizamos modelos hidráulicos de rotura de presa (brecha paramétrica) con propagación 1D/2D aguas abajo, generando mapas de inundación, isócronas de llegada, profundidades y velocidades máximas para los distintos escenarios de rotura considerados.",
+        "Seguimos de forma estricta las guías de elaboración aplicables para cada uno de los documentos de seguridad de presas. Cuando el alcance lo requirió, incorporamos la modelación de los escenarios de rotura y el análisis y procesamiento de los resultados asociados.",
       validacion:
-        "Contrastamos los resultados de rotura con estudios previos disponibles y realizamos una revisión cruzada con cartografía oficial. Verificamos la coherencia entre los escenarios de rotura, los tiempos de propagación y los aforos históricos de la cuenca.",
+        "Revisamos la consistencia técnica y documental frente a la normativa vigente, guías oficiales y requerimientos específicos de cada Confederación Hidrográfica. Además, realizamos el seguimiento junto con el cliente y con la Confederación hasta obtener una versión aprobada de cada documento.",
       entregables:
-        "Entregamos el documento de seguridad completo (PEP, Norma de Explotación, Clasificación o Plan de Autoprotección según el caso), mapas de inundación por rotura, tablas de afecciones con elementos en riesgo (población, infraestructuras, usos del suelo), fichas de actuación y realizamos el seguimiento hasta la aprobación por la Confederación Hidrográfica.",
+        "Documento de seguridad de presa en cuestión, listo para su presentación y seguimiento hasta aprobación, junto con los archivos de trabajo asociados.",
     },
     kpis: [
-      { label: "Confederaciones", value: "5+", icon: "gauge" },
-      { label: "Aprobación", value: "100%", icon: "activity" },
+      { label: "Confederaciones Hidrográficas", value: "+3", icon: "gauge" },
+      { label: "Documentos de seguridad aprobados", value: "+20", icon: "activity" },
     ],
-    tags: ["Presas", "PEP", "HEC-RAS", "España", "Seguridad hídrica"],
+    tags: ["Presas", "Seguridad hídrica", "HEC-RAS"],
     countries: "España",
-    href: "/casos/seguridad-presas-espana",
   },
   {
-    id: "erosion-socavacion-puentes",
-    title: "Estudios de Erosión y Socavación en puentes y obras de paso",
-    title_en: "Scour and Erosion Studies for Bridges and Crossings",
+    id: "erosion-socavacion-estabilidad",
+    title: "Estudios de erosión, socavación y estabilidad fluvial",
+    title_en: "Erosion, Scour and Fluvial Stability Studies",
     sector: "Obras hidráulicas",
-    location: "Argentina · Estados Unidos",
-    year: 2024,
+    location: "Argentina · EE.UU.",
+    year: 2025,
     imageSrc: "/images/cases/case3v2.png",
     imageInsetSrc: "/images/cases/case3v2.png",
     summary:
-      "Realizamos estudios de erosión, estabilidad de márgenes y socavación, principalmente aplicados a puentes y obras de paso en Argentina y Estados Unidos. También abordamos casos de protección de márgenes y estabilidad fluvial en tramos con riesgo para infraestructuras y desarrollos urbanos.",
+      "Realizamos estudios de erosión, estabilidad de márgenes y socavación para puentes, obras de paso y tramos fluviales con riesgo para infraestructuras, servicios o desarrollos urbanos.",
     summary_en:
-      "We conducted scour, bank stability and erosion studies applied to bridges and crossings in Argentina and the United States, including bank protection and fluvial stability assessments for infrastructure at risk.",
+      "We carried out erosion, bank stability and scour studies for bridges, crossings and river reaches posing risk to infrastructure, services or urban developments.",
     details: {
       objetivo:
-        "Nuestro objetivo fue evaluar el riesgo de socavación en pilas, estribos y zona de aproximación de puentes y obras de paso, estimar la magnitud esperable bajo distintos eventos de crecida y definir soluciones de protección costo-efectivas. En algunos casos, abordamos también la estabilidad de márgenes y la protección de infraestructuras y desarrollos urbanos en tramos con riesgo fluvial.",
+        "Identificar el nivel de riesgo asociado a procesos erosivos y de socavación, estimar su magnitud esperable y definir medidas de mitigación técnica y económicamente viables.",
       metodologia:
-        "Realizamos análisis hidráulicos de las condiciones de crecida (caudales de diseño, niveles, velocidades y distribución de flujo en la sección de cruce) mediante modelos 1D/2D. Estimamos la socavación general, por contracción y local en pilas y estribos aplicando los métodos de referencia (HEC-18 y metodologías argentinas). Caracterizamos geomorfológicamente el tramo y evaluamos la estabilidad de márgenes bajo condiciones de diseño.",
+        "Analizamos mecanismos de erosión, revisamos condiciones hidráulicas de crecida, estimamos socavación potencial y evaluamos alternativas de protección como escolleras, disipadores de energía u otras medidas de estabilización y control.",
       validacion:
-        "Contrastamos los resultados con registros históricos de niveles y aforos disponibles. Verificamos la coherencia de las estimaciones de socavación con las características geotécnicas del lecho y las observaciones de campo.",
+        "Contrastamos los resultados con eventos registrados cuando esa información estuvo disponible, y con otros estudios similares aprobados en la zona.",
       entregables:
-        "Entregamos un informe técnico con estimación de socavaciones por tipo y escenario, mapas de velocidades y energía específica en la sección de cruce, y recomendaciones de medidas de mitigación (escolleras, colchones Reno, umbrales, deflectores) con criterios de dimensionamiento y presupuesto de referencia.",
+        "Memoria técnica con el diagnóstico de riesgo, la estimación de socavación o erosión potencial, la evaluación de vulnerabilidad y las recomendaciones de mitigación y protección, junto con planos y archivos de trabajo cuando el cliente lo solicitó. Cuando fue necesario, todo se entregó en formato listo para presentar ante la autoridad competente.",
     },
     kpis: [
-      { label: "Puentes analizados", value: "+15", icon: "gauge" },
-      { label: "Países", value: "2", icon: "activity" },
+      { label: "Países", value: "+2", icon: "gauge" },
+      { label: "Estructuras y tramos evaluados", value: "+10", icon: "activity" },
     ],
-    tags: ["Socavación", "HEC-RAS", "HEC-18", "Puentes", "Argentina"],
-    countries: "Argentina · Estados Unidos",
-    href: "/casos/erosion-socavacion-puentes",
+    tags: ["Erosión", "Socavación", "HEC-RAS"],
+    countries: "Argentina · EE.UU.",
   },
   {
     id: "obras-drenaje-infraestructura",
-    title: "Proyectos de drenaje para infraestructuras de gran escala",
-    title_en: "Drainage Projects for Large-Scale Infrastructure",
+    title: "Proyectos de obras de drenaje",
+    title_en: "Drainage Works Projects",
     sector: "Drenaje",
-    location: "Argentina · España",
-    year: 2024,
+    location: "Argentina · España · EE.UU. · Italia · Suecia",
+    year: 2025,
     imageSrc: "/images/cases/case4v2.png",
     imageInsetSrc: "/images/cases/case4v2.png",
     summary:
-      "Participamos en proyectos de diseño y verificación de obras de drenaje asociadas a infraestructuras de gran escala: obras lineales, aeropuertos, subestaciones eléctricas, plantas fotovoltaicas, parques eólicos y centros de datos, en Argentina y España.",
+      "Participamos en proyectos de diseño y verificación de obras de drenaje asociadas a infraestructuras y desarrollos de distintas escalas, desde intervenciones puntuales hasta proyectos de gran magnitud, incluyendo obras lineales, aeropuertos, subestaciones, plantas fotovoltaicas, parques eólicos y centros de datos.",
     summary_en:
-      "We participated in drainage design and verification projects for large-scale infrastructure including linear works, airports, electrical substations, solar and wind farms, and data centres in Argentina and Spain.",
+      "We participated in drainage design and verification projects for infrastructure and developments of varying scales, from small interventions to large-scale projects including linear works, airports, substations, solar and wind farms, and data centres.",
     details: {
       objetivo:
-        "Nuestro objetivo fue definir los criterios de diseño hidrológico e hidráulico, dimensionar las obras de conducción y control necesarias, y generar la documentación técnica requerida para permisos, licitación o construcción. Trabajamos tanto en el diagnóstico de sistemas existentes como en el diseño de nuevas soluciones para infraestructuras en fase de proyecto o en construcción.",
+        "Definir soluciones de drenaje seguras y eficientes, asegurando capacidad hidráulica, resiliencia frente a eventos extremos y compatibilidad con criterios actuales de adaptación y cambio climático, además del soporte técnico necesario para permisos, licitación o construcción.",
       metodologia:
-        "Estimamos los caudales de diseño mediante métodos hidrológicos adaptados a la normativa local (curvas IDF, método racional, hidrogramas unitarios). Dimensionamos obras de conducción y control: cunetas, alcantarillas y marcos de cruce, canales trapezoidales y rectangulares, estructuras de disipación de energía y dispositivos de retención/laminación. Verificamos capacidades y evaluamos interferencias con otras infraestructuras mediante modelación hidráulica.",
+        "Primero establecemos los criterios y valores de diseño, incluyendo estudios hidrológicos e hidráulicos cuando fueron necesarios. Luego dimensionamos obras de conducción y control, tales como cunetas, alcantarillas, obras de cruce, canales, estructuras de disipación y estructuras de retención o laminación. Finalmente, evaluamos el comportamiento del sistema bajo eventos de diseño y también bajo escenarios extremos, incluyendo cuando corresponde condiciones asociadas al cambio climático.",
       validacion:
-        "Verificamos las capacidades hidráulicas bajo eventos de diseño (T10, T25, T100 según el tipo de infraestructura y la normativa aplicable). Revisamos interferencias con servicios, caminos y cauces naturales existentes, y contrastamos los diseños con los criterios establecidos en cada normativa.",
+        "Verificamos la capacidad y el desempeño de las soluciones no solo bajo escenarios de diseño, sino también frente a eventos extremos y escenarios adicionales que permitan evaluar robustez y resiliencia, incluyendo en determinados casos hipótesis asociadas al cambio climático.",
       entregables:
-        "Entregamos memorias técnicas hidrológico-hidráulicas, planos de diseño de obras de drenaje, planillas de cómputos y presupuesto de referencia, especificaciones técnicas de construcción y documentación de soporte para permisos ante organismos viales, ambientales o de cuenca.",
+        "Memorias técnicas, criterios de diseño, planos, esquemas hidráulicos y documentación de soporte para permisos, licitación o construcción.",
     },
     kpis: [
-      { label: "Tipo de infraestructura", value: "6+", icon: "gauge" },
-      { label: "Proyectos", value: "+30", icon: "activity" },
+      { label: "Países", value: "+4", icon: "gauge" },
+      { label: "Proyectos", value: "+20", icon: "activity" },
     ],
-    tags: ["Drenaje", "Alcantarillas", "HEC-HMS", "Argentina", "Renovables"],
-    countries: "Argentina · España",
-    href: "/casos/obras-drenaje-infraestructura",
+    tags: ["Drenaje", "Obras hidráulicas", "HEC-HMS"],
+    countries: "Argentina · España · EE.UU. · Italia · Suecia",
   },
   {
-    id: "drenaje-urbano-suds",
-    title: "Drenaje urbano y Soluciones de Drenaje Sostenible (SUDS)",
-    title_en: "Urban Drainage and Sustainable Drainage Solutions (SuDS)",
+    id: "drenaje-urbano-planificacion",
+    title: "Drenaje urbano y planificación pluvial",
+    title_en: "Urban Drainage and Stormwater Planning",
     sector: "Drenaje Urbano",
-    location: "Argentina",
-    year: 2024,
+    location: "Argentina · España",
+    year: 2025,
     imageSrc: "/images/cases/case5v2.png",
     imageInsetSrc: "/images/cases/case5v2.png",
     summary:
-      "Desarrollamos estudios y proyectos de drenaje urbano en distintas localidades de Argentina, abarcando desde la planificación estratégica hasta el diseño de soluciones a escala de obra, incluyendo planes maestros, redes pluviales y la evaluación e integración de SUDS.",
+      "Desarrollamos estudios y proyectos de drenaje urbano, desde la planificación estratégica hasta el diseño de soluciones a escala de obra, incluyendo redes pluviales, balsas de retención y laminación, y SUDS.",
     summary_en:
-      "We developed urban drainage studies and projects across Argentine cities, covering strategic planning through to detailed design, including master plans, stormwater networks and the integration of Sustainable Drainage Systems (SuDS).",
+      "We developed urban drainage studies and projects, from strategic planning to detailed design, including stormwater networks, detention and retention ponds, and SuDS.",
     details: {
       objetivo:
-        "Nuestro objetivo fue reducir los anegamientos urbanos mediante la planificación estratégica del drenaje pluvial y la integración de Soluciones Urbanas de Drenaje Sostenible (SUDS), mejorando la resiliencia de los barrios frente a eventos de tormenta de distintos periodos de retorno. En algunos proyectos, brindamos también soporte hidrológico-hidráulico para nuevos loteos y desarrollos urbanísticos, definiendo medidas de manejo de escorrentía y criterios de descarga.",
+        "Mejorar el desempeño del drenaje urbano y apoyar la toma de decisiones en nuevas urbanizaciones y loteos, como también en áreas urbanas ya consolidadas, integrando criterios hidráulicos, de gestión del riesgo y de sostenibilidad.",
       metodologia:
-        "Modelamos las redes pluviales con SWMM, incluyendo malla dual calle-colector, bocas de tormenta y estructuras de control. Evaluamos e integramos SUDS (pavimentos permeables, jardines de lluvia, zanjas drenantes, cunetas verdes, balsas de laminación con vegetación) mediante modelación hidrológica comparativa. Elaboramos mapas de riesgo por inundación con profundidades y velocidades para distintos periodos de retorno, y realizamos análisis de vulnerabilidad para priorización de obras.",
+        "Elaboramos planes maestros de drenaje, diseñamos redes y dispositivos de control, evaluamos e integramos SUDS y, cuando fue requerido, desarrollamos mapas de riesgo por inundación y análisis de vulnerabilidad para priorización de intervenciones.",
       validacion:
-        "Calibramos los modelos con eventos de lluvia registrados y comparamos las láminas de agua observadas con los resultados del modelo. Realizamos análisis de sensibilidad a parámetros hidrológicos (CN, tiempo de concentración) y de la red (rugosidades, coeficientes de entrada en bocas de tormenta).",
+        "Revisamos balances de escorrentía, capacidad del sistema, compatibilidad con criterios de descarga y coherencia entre las propuestas de intervención y las limitaciones urbanas y normativas del entorno.",
       entregables:
-        "Entregamos planes maestros de drenaje urbano con diagnóstico de la red existente, propuesta de obras de mejora priorizadas por costo-beneficio, diseño de soluciones SUDS con criterios constructivos, mapas de riesgo por inundación (T2, T5, T10, T25, T100) y fichas técnicas de intervención por sector.",
+        "Planes maestros, memorias de cálculo, planos de diseño y mapas de riesgo.",
     },
     kpis: [
-      { label: "Ciudades", value: "5+", icon: "gauge" },
-      { label: "Reducción anegamientos", value: "−15%", icon: "activity" },
+      { label: "Nuevos loteos", value: "+10", icon: "gauge" },
+      { label: "Aprobación", value: "100%", icon: "activity" },
     ],
-    tags: ["SWMM", "SUDS", "Drenaje Urbano", "Argentina", "Resiliencia"],
-    countries: "Argentina",
-    href: "/casos/drenaje-urbano-suds",
+    tags: ["SWMM", "SUDS", "Drenaje Urbano"],
+    countries: "Argentina · España",
   },
   {
     id: "hidrologia-subterranea-llanura",
     title: "Hidrología subterránea y de llanura",
     title_en: "Groundwater and Lowland Hydrology",
     sector: "Aguas subterráneas",
-    location: "España · Argentina",
-    year: 2024,
+    location: "Argentina · España",
+    year: 2025,
     imageSrc: "/images/cases/case6v2.png",
     imageInsetSrc: "/images/cases/case6v2.png",
     summary:
-      "Realizamos estudios de hidrogeología aplicada y modelación de aguas subterráneas en España y Argentina, orientados tanto a la planificación de recursos hídricos como a la evaluación ambiental. Trabajamos también en cuencas de llanura con dinámica de inundación estacional, incluyendo proyectos en la laguna La Picasa, Santa Fe.",
+      "Desarrollamos estudios de hidrogeología aplicada y modelación de aguas subterráneas orientados a la planificación de recursos hídricos, la evaluación ambiental y el análisis de interacción entre sistemas superficiales y subterráneos.",
     summary_en:
-      "We conducted applied hydrogeology studies and groundwater modelling in Spain and Argentina, focused on water resource planning and environmental assessment, including seasonal flooding dynamics in lowland catchments such as La Picasa lagoon, Santa Fe.",
+      "We developed applied hydrogeology studies and groundwater modelling focused on water resource planning, environmental assessment and analysis of surface–groundwater interaction.",
     details: {
       objetivo:
-        "Nuestro objetivo fue analizar balances hídricos subterráneos, la dinámica de interacción río-acuífero y evaluar escenarios de gestión (cambios de extracción, recarga, uso del suelo). En las cuencas de llanura —incluyendo la laguna La Picasa y zonas aledañas en Santa Fe— nos propusimos comprender la dinámica de inundación y los mecanismos de recarga-descarga de acuíferos freáticos en condiciones de exceso hídrico.",
+        "Comprender el funcionamiento hidrogeológico del sistema, evaluar balances, interacción río-acuífero y escenarios de gestión, y generar insumos técnicos para la toma de decisiones y el diseño de medidas de control.",
       metodologia:
-        "Construimos y calibramos modelos numéricos de aguas subterráneas (diferencias finitas / elementos finitos) integrando datos piezométricos, hidroquímicos y de uso del suelo. Desarrollamos modelación acoplada superficial-subterránea para cuencas de llanura con dinámica de encharcamiento y evapotranspiración. Cuando el problema lo demandó, evaluamos la dispersión de contaminantes y la evolución espacio-temporal de plumas mediante modelos de transporte.",
+        "Construimos y calibramos modelos numéricos, analizamos escenarios de extracción, recarga y uso del suelo y, cuando el problema lo demandó, evaluamos dispersión de contaminantes y evolución espacio-temporal de plumas.",
       validacion:
-        "Calibramos los modelos con series piezométricas históricas y, donde disponíamos de ellos, con datos de aforo de intercambio río-acuífero. Utilizamos el cierre del balance hídrico como indicador de consistencia. En los casos de transporte, contrastamos los resultados con muestreos de calidad de agua en pozos de monitoreo.",
+        "Contrastamos el comportamiento del modelo con información de campo y niveles piezométricos medidos, asegurando consistencia conceptual entre la dinámica simulada y el sistema analizado.",
       entregables:
-        "Entregamos informes de hidrogeología con descripción del sistema acuífero, mapas de isopiezas y gradientes, resultados de calibración, análisis de escenarios de gestión y recomendaciones para el manejo del recurso hídrico subterráneo. En casos de contaminación, incluimos mapas de extensión de plumas y propuestas de monitoreo o remediación.",
+        "Memoria técnica, modelo numérico calibrado, análisis de escenarios, resultados de interacción río-acuífero o dispersión y recomendaciones técnicas para gestión y control.",
     },
     kpis: [
-      { label: "Modelos calibrados", value: "10+", icon: "gauge" },
-      { label: "Países", value: "2", icon: "activity" },
+      { label: "Sistemas analizados", value: "+5", icon: "gauge" },
+      { label: "Modelos calibrados", value: "+10", icon: "activity" },
     ],
-    tags: ["Hidrogeología", "Aguas subterráneas", "La Picasa", "Argentina", "España"],
-    countries: "España · Argentina",
-    href: "/casos/hidrologia-subterranea-llanura",
+    tags: ["Hidrogeología", "Aguas subterráneas"],
+    countries: "Argentina · España",
   },
   {
     id: "sistemas-alerta-inundaciones",
-    title: "Sistemas de Alerta Temprana de Inundaciones",
+    title: "Sistemas de alerta temprana de inundaciones",
     title_en: "Flood Early Warning Systems",
     sector: "Alerta Temprana",
     location: "Argentina",
-    year: 2024,
+    year: 2025,
     imageSrc: "/images/cases/case7v2.png",
     imageInsetSrc: "/images/cases/case7v2.png",
     summary:
-      "Participamos en el desarrollo de sistemas de alerta temprana de inundaciones para ciudades en Argentina, integrando modelos hidrológicos e hidráulicos con información meteorológica y modelos de pronóstico numérico del tiempo para generar escenarios de caudales y niveles en tiempo casi real.",
+      "Participamos en el desarrollo de sistemas de alerta temprana de inundaciones para ciudades, integrando modelos hidrológicos e hidráulicos con información meteorológica para generar herramientas operativas de anticipación y apoyo a la toma de decisiones.",
     summary_en:
-      "We participated in the development of flood early warning systems for Argentine cities, coupling hydrological and hydraulic models with meteorological data and numerical weather prediction to generate near-real-time flood scenarios.",
+      "We participated in developing flood early warning systems for cities, integrating hydrological and hydraulic models with meteorological data to generate operational tools for anticipation and decision support.",
     details: {
       objetivo:
-        "Nuestro objetivo fue construir herramientas operativas de anticipación y apoyo a la toma de decisiones para organismos de gestión del riesgo hídrico. Buscamos reducir los tiempos de respuesta ante eventos de inundación mediante la integración de modelos de pronóstico meteorológico con modelos hidrológicos e hidráulicos operando en tiempo casi real.",
+        "Desarrollar herramientas técnicas para anticipar eventos, definir umbrales de alerta y mejorar la capacidad de respuesta de organismos técnicos y de gestión del riesgo.",
       metodologia:
-        "Definimos la arquitectura del sistema: la cadena de modelos desde la precipitación pronosticada hasta los niveles e inundaciones esperados. Acoplamos modelos de pronóstico numérico del tiempo (NWP) con modelos hidrológicos lluvia-escorrentía (HEC-HMS) y modelos hidráulicos (HEC-RAS / SWMM). Establecimos flujos de datos automatizados, umbrales de alerta por tramo o punto de control, y generamos productos operativos (mapas, series temporales, boletines) adaptados a los distintos usuarios del sistema.",
+        "Integramos modelos hidrológicos e hidráulicos con información meteorológica y, cuando corresponde, con modelos de pronóstico numérico del tiempo, para generar escenarios de caudales y niveles en tiempo casi real. Definimos flujos de datos, criterios de umbral y productos de comunicación del riesgo.",
       validacion:
-        "Validamos el sistema contra eventos históricos de inundación con registros de campo disponibles. Analizamos la habilidad predictiva del sistema —tiempos de adelanto, tasas de acierto y falsas alarmas— para distintos horizontes de pronóstico.",
+        "Verificamos consistencia entre entradas, modelos, umbrales y productos de salida, y contrastamos el desempeño del sistema con eventos de referencia, antecedentes disponibles y requerimientos operativos del usuario.",
       entregables:
-        "Entregamos el sistema de alerta temprana operativo con documentación técnica completa: arquitectura del sistema, manuales de operación, umbrales de alerta calibrados, mapas de inundación precalculados por escenario, protocolos de comunicación y plan de mantenimiento.",
+        "Los entregables incluyen los distintos insumos que componen el sistema de alerta, como los modelos hidrológicos e hidráulicos, los flujos de datos automatizados, la definición de umbrales y demás componentes técnicos, junto con reportes, mapas y otros productos orientados a la comunicación del riesgo y la toma de decisiones.",
     },
     kpis: [
-      { label: "Ciudades", value: "3+", icon: "gauge" },
-      { label: "Anticipación", value: "+6h", icon: "activity" },
+      { label: "Ciudades", value: "+3", icon: "gauge" },
+      { label: "Horas de anticipación", value: "+12", icon: "activity" },
     ],
-    tags: ["Alerta Temprana", "HEC-HMS", "HEC-RAS", "Argentina", "Tiempo real"],
+    tags: ["Alerta Temprana", "HEC-HMS", "HEC-RAS"],
     countries: "Argentina",
-    href: "/casos/sistemas-alerta-inundaciones",
   },
   {
     id: "transporte-contaminantes-calidad-agua",
@@ -249,29 +242,28 @@ export const casesData: CaseItem[] = [
     title_en: "Contaminant Transport and Water Quality Assessment",
     sector: "Calidad de agua",
     location: "Argentina",
-    year: 2024,
+    year: 2025,
     imageSrc: "/images/cases/case8v2.png",
     imageInsetSrc: "/images/cases/case8v2.png",
     summary:
-      "Desarrollamos estudios de transporte de contaminantes y calidad de agua en ríos, principalmente en Argentina, utilizando herramientas de hidrodinámica y dispersión. Modelamos variables como DBO y oxígeno disuelto para diagnóstico ambiental, análisis de cumplimiento y evaluación de medidas de mitigación.",
+      "Desarrollamos estudios de calidad de agua y transporte de contaminantes en cursos de agua mediante modelos de hidrodinámica y dispersión, para apoyar diagnósticos ambientales, análisis de cumplimiento y evaluación de escenarios.",
     summary_en:
-      "We developed contaminant transport and water quality studies in rivers across Argentina using hydrodynamic and dispersion tools, modelling variables such as BOD and dissolved oxygen for environmental diagnosis, compliance analysis and mitigation assessment.",
+      "We developed water quality and contaminant transport studies in watercourses using hydrodynamic and dispersion models, to support environmental diagnosis, compliance analysis and scenario assessment.",
     details: {
       objetivo:
-        "Nuestro objetivo fue evaluar la capacidad de autodepuración de los cuerpos receptores ante descargas de efluentes industriales o cloacales, estimar la extensión y concentración de plumas de contaminantes bajo distintos caudales y cargas, y proveer resultados técnicos para diagnóstico ambiental, análisis de cumplimiento de estándares de calidad de agua y evaluación de medidas de mitigación o control.",
+        "Evaluar la respuesta del sistema frente a distintos caudales, cargas y condiciones de borde, y generar evidencia técnica para medidas de mitigación, control o gestión.",
       metodologia:
-        "Aplicamos herramientas computacionales de hidrodinámica y dispersión para estimar los procesos de mezcla en zona de campo cercano y campo lejano. Modelamos variables de calidad típicas (DBO, OD, nutrientes, temperatura) y evaluamos la respuesta del sistema ante variaciones de caudal, carga contaminante y condiciones de borde estacionales. Visualizamos las plumas de contaminantes mediante campos de concentración espacio-temporales.",
+        "Estimamos procesos de mezcla y transporte y modelamos variables típicas de calidad de agua, como DBO y oxígeno disuelto, considerando distintos escenarios hidrológicos y de carga contaminante.",
       validacion:
-        "Contrastamos los resultados con datos de calidad de agua de campo (muestreos en distintas secciones y condiciones de caudal). Calibramos los coeficientes de degradación, reaireación y dispersión longitudinal/transversal, y realizamos análisis de sensibilidad a los parámetros de mayor incertidumbre.",
+        "Revisamos coherencia física de los resultados, balances de masa, sensibilidad a condiciones de borde y, cuando existe información disponible, contraste con datos de monitoreo o antecedentes del sistema.",
       entregables:
-        "Entregamos informes técnicos con caracterización hidrodinámica del tramo, mapas de concentración de contaminantes (extensión de plumas por escenario de caudal y carga), análisis de cumplimiento de estándares de calidad de agua, evaluación de escenarios de reducción de carga y recomendaciones de medidas de mitigación o monitoreo.",
+        "Memoria técnica con diagnóstico ambiental, análisis de cumplimiento, evaluación de escenarios, resultados de modelación y recomendaciones de mitigación o control.",
     },
     kpis: [
-      { label: "Variables modeladas", value: "5+", icon: "gauge" },
-      { label: "Estudios", value: "8+", icon: "activity" },
+      { label: "Estudios", value: "+8", icon: "gauge" },
+      { label: "Variables modeladas", value: "+5", icon: "activity" },
     ],
-    tags: ["Calidad de agua", "Plumas", "DBO", "Argentina", "Ambiental"],
+    tags: ["Calidad de agua", "Transporte de contaminantes"],
     countries: "Argentina",
-    href: "/casos/transporte-contaminantes-calidad-agua",
   },
 ];

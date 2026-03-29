@@ -4,22 +4,24 @@
 import React, { useState, useCallback, useEffect, useRef } from "react";
 import Container from "../ui/Container";
 import { useI18n } from "@/lib/i18n-context";
-import { Waves, Droplets, Map as MapIcon, Ruler, ShieldCheck, Building2, Wind, Activity, ArrowRight, ChevronDown } from "lucide-react";
+import { Waves, Droplets, Map as MapIcon, Ruler, ShieldCheck, Building2, Wind, Activity, ArrowRight, ChevronDown, FlaskConical, Cpu, Bell } from "lucide-react";
 
 const TEAL = "#009fa6";
 const BLUE = "#0e3a5d";
 
-const ICONS = { waves: Waves, droplets: Droplets, map: MapIcon, ruler: Ruler, shield: ShieldCheck, building: Building2, wind: Wind, activity: Activity } as const;
+const ICONS = { waves: Waves, droplets: Droplets, map: MapIcon, ruler: Ruler, shield: ShieldCheck, building: Building2, wind: Wind, activity: Activity, flask: FlaskConical, cpu: Cpu, bell: Bell } as const;
 
 const SERVICE_ICONS: Record<string, keyof typeof ICONS> = {
-  "modelacion-hidraulica": "waves",
-  "modelacion-hidrologica": "activity",
-  "obras-hidraulicas": "ruler",
-  "drenaje-urbano-suds": "droplets",
-  "riesgos-inundacion": "shield",
+  "modelacion-hidrologica-hidraulica": "waves",
+  "riesgo-inundacion-resiliencia": "shield",
+  "drenaje-urbano-rural-obras": "droplets",
   "presas-seguridad": "building",
-  "abastecimiento": "wind",
-  "sig-lidar": "map",
+  "hidrogeologia-subterranea": "activity",
+  "redes-bombeo-obras": "wind",
+  "calidad-agua-erosion": "flask",
+  "analisis-geoespacial-gis": "map",
+  "automatizacion-herramientas": "cpu",
+  "alerta-temprana-aforo": "bell",
 };
 
 export default function ServicesShowcase() {

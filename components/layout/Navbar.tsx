@@ -53,7 +53,6 @@ export function Navbar() {
           <li><a className={linkBase} href="#nosotros">{t.nav.about}</a></li>
           <li><a className={linkBase} href="#servicios">{t.nav.services}</a></li>
           <li><a className={linkBase} href="#casos">{t.nav.cases}</a></li>
-          <li><a className={linkBase} href="#presencia">{t.nav.presence}</a></li>
         </ul>
 
         <div className="hidden md:flex items-center gap-3">
@@ -104,7 +103,6 @@ export function Navbar() {
               { href: "#nosotros", label: t.nav.about },
               { href: "#servicios", label: t.nav.services },
               { href: "#casos", label: t.nav.cases },
-              { href: "#presencia", label: t.nav.presence },
               { href: "#contacto", label: t.nav.contact },
             ].map(({ href, label }) => (
               <li key={href}>

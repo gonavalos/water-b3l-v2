@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 import Container from "../ui/Container";
-import { Mail, Phone, MapPin, Linkedin, Github, Youtube, Twitter } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin } from "lucide-react";
 import { useI18n } from "@/lib/i18n-context";
 
 const BLUE = "#0b1220";
@@ -15,10 +15,7 @@ export default function Footer() {
   const f = t.footer;
 
   const socials = [
-    { href: "https://www.linkedin.com/company/tu-pagina", label: "LinkedIn", Icon: Linkedin },
-    { href: "https://twitter.com/tu_usuario", label: "X (Twitter)", Icon: Twitter },
-    { href: "https://github.com/tu-org", label: "GitHub", Icon: Github },
-    { href: "https://youtube.com/@tu-canal", label: "YouTube", Icon: Youtube },
+    { href: "https://www.linkedin.com/company/waterb3l", label: "LinkedIn", Icon: Linkedin },
   ];
 
   return (
@@ -76,9 +73,9 @@ export default function Footer() {
             <h3 className="text-sm font-semibold text-white/90">{f.sections}</h3>
             <ul className="mt-3 space-y-2 text-sm text-slate-100/75">
               {[
+                { href: "#nosotros", label: t.nav.about },
                 { href: "#servicios", label: t.nav.services },
                 { href: "#casos", label: t.nav.cases },
-                { href: "#nosotros", label: t.nav.about },
                 { href: "#contacto", label: t.nav.contact },
               ].map((item) => (
                 <li key={item.href}>
@@ -105,8 +102,8 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <Phone className="mt-0.5 h-4 w-4 shrink-0" />
-                <a href="tel:+34111222333" className="transition hover:text-[#009fa6]">
-                  +34 111 222 333
+                <a href="tel:+34624012778" className="transition hover:text-[#009fa6]">
+                  +34 624 01 27 78
                 </a>
               </li>
               <li className="flex items-start gap-2">

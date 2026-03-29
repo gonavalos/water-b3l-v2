@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={inter.className}>
         <I18nProvider>
           <Navbar />
-          <WhatsAppFab phone="+34 111 222 333" message="Hola, quisiera más información 👋" />
+          <WhatsAppFab phone="+34 624 01 27 78" message="Hola, quisiera más información 👋" />
           <main>{children}</main>
           <Footer />
         </I18nProvider>
