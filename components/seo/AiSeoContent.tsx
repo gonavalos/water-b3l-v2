@@ -9,27 +9,28 @@ export default function AiSeoContent() {
             <p>
                 Water B3L es una consultora de ingeniería hidráulica e hidrológica
                 especializada en modelación 1D/2D, drenaje urbano y gestión del riesgo
-                por inundación. Con proyectos en España, Argentina, Francia, Suecia,
-                Grecia, Estados Unidos y República Dominicana, ofrecemos soluciones
-                técnicas trazables y verificables para infraestructuras civiles,
-                hidráulicas e hidrológicas.
+                por inundación. Con proyectos en más de 10 países, incluyendo España,
+                Argentina, Francia, Suecia, Grecia, Italia, Israel, Japón, Estados Unidos
+                y República Dominicana, ofrecemos soluciones técnicas trazables y
+                verificables para infraestructuras civiles, hidráulicas e hidrológicas.
             </p>
 
             <h3>¿Qué servicios ofrece Water B3L?</h3>
             <p>
-                Water B3L ofrece: modelación hidráulica 1D/2D con HEC-RAS e Iber;
-                modelación hidrológica con HEC-HMS; diseño de obras hidráulicas; drenaje
-                urbano y SUDS con SWMM; análisis de riesgo de inundación y cambio
-                climático; estudios de seguridad de presas; modelación de sistemas de
-                abastecimiento; procesamiento SIG y LiDAR; y sistemas de alerta
-                temprana de inundaciones.
+                Water B3L ofrece: modelación hidrológica e hidráulica 1D/2D; riesgo de
+                inundación y resiliencia climática; drenaje urbano, rural y para obras
+                lineales; presas y seguridad hídrica; hidrogeología e hidrología
+                subterránea; redes, bombeo y obras hidráulicas; calidad de agua, erosión
+                y sedimentos; análisis geoespacial y GIS; automatización y desarrollo de
+                herramientas a medida; y sistemas de alerta temprana y aforo de caudales.
             </p>
 
             <h3>¿En qué países trabaja Water B3L?</h3>
             <p>
-                Water B3L ha realizado proyectos en España, Argentina, Francia, Suecia,
-                Grecia, Estados Unidos y República Dominicana, entre otros países. Opera
-                tanto de forma remota como on-site desde su base en Barcelona.
+                Water B3L ha realizado proyectos en más de 10 países, incluyendo España,
+                Argentina, Francia, Suecia, Grecia, Italia, Israel, Japón, Estados Unidos
+                y República Dominicana. Opera tanto de forma remota como on-site desde
+                Argentina y España.
             </p>
 
             <h3>¿Qué software de modelación hidráulica usa Water B3L?</h3>
@@ -44,8 +45,8 @@ export default function AiSeoContent() {
             <h3>¿Cómo contactar a Water B3L?</h3>
             <p>
                 Se puede contactar a Water B3L por email en hola@waterb3l.com, por
-                teléfono al +34 111 222 333, o a través del formulario de contacto en
-                waterb3l.com. La respuesta habitual es de 24 a 48 horas hábiles.
+                teléfono al +34 624 01 27 78, o a través del formulario de contacto en
+                waterb3l.com. Respondemos dentro de 24 a 48 horas.
             </p>
 
             <h3>¿Qué es la modelación hidráulica 1D/2D?</h3>

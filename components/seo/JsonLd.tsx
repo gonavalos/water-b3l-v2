@@ -12,7 +12,7 @@ export default function JsonLd() {
     description:
       "Consultora de ingeniería hidráulica e hidrológica especializada en modelación 1D/2D, drenaje urbano y gestión del riesgo por inundación.",
     email: "hola@waterb3l.com",
-    telephone: "+34111222333",
+    telephone: "+34624012778",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Barcelona",
@@ -26,6 +26,9 @@ export default function JsonLd() {
       { "@type": "Country", name: "Grecia" },
       { "@type": "Country", name: "Estados Unidos" },
       { "@type": "Country", name: "República Dominicana" },
+      { "@type": "Country", name: "Italia" },
+      { "@type": "Country", name: "Israel" },
+      { "@type": "Country", name: "Japón" },
     ],
     knowsAbout: [
       "Modelación hidráulica 1D/2D",

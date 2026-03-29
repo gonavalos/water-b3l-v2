@@ -24,7 +24,9 @@
   --radius-button: 8px;
 }
 
-html {
+html,
+body {
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 

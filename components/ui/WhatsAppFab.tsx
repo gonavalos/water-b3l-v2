@@ -27,7 +27,7 @@ export default function WhatsAppFab({
       rel="noopener noreferrer"
       aria-label={label}
       className={[
-        "fixed z-50 bottom-5 md:bottom-8 right-10 inline-flex items-center justify-center",
+        "fixed z-50 bottom-5 md:bottom-8 inline-flex items-center justify-center",
         "rounded-full shadow-lg transition transform hover:scale-[1.03]",
         "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#25D366]",
         position === "right" ? "right-5 md:right-6" : "left-5 md:left-6",

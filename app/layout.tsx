@@ -11,8 +11,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Water B3L — Ingeniería hidráulica e hidrológica",
-  description: "Especialistas en modelación hidrológica e hidráulica, drenaje urbano y gestión del riesgo por inundación. Proyectos en España, Argentina y más de 8 países.",
-  keywords: "ingeniería hidráulica, hidrología, HEC-RAS, SWMM, drenaje urbano, riesgo inundación, modelación 1D 2D, España, Argentina",
+  description: "Especialistas en modelación hidrológica e hidráulica, drenaje urbano y gestión del riesgo por inundación. Proyectos en más de 10 países.",
+  keywords: "ingeniería hidráulica, hidrología, HEC-RAS, SWMM, HEC-HMS, EPANET, drenaje urbano, riesgo inundación, modelación 1D 2D, España, Argentina",
   robots: { index: true, follow: true },
 };
 
