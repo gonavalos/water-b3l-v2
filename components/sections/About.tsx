@@ -54,8 +54,8 @@ export default function About() {
           </div>
         </div>
 
-        {/* RIGHT — Images (kept) */}
-        <div className="md:col-span-6 lg:col-span-7 relative min-h-[520px] md:min-h-[580px]">
+        {/* RIGHT — Image */}
+        <div className="md:col-span-6 lg:col-span-7 relative flex items-center">
           {/* Teal glow */}
           <div
             aria-hidden
@@ -63,8 +63,7 @@ export default function About() {
             style={{ backgroundColor: TEAL, opacity: 0.14 }}
           />
 
-          {/* Main image */}
-          <div className="relative">
+          <div className="relative w-full">
             <Image
               src="/images/about/equipo.png"
               alt="Equipo de ingeniería trabajando desde vista superior"
@@ -74,50 +73,6 @@ export default function About() {
               sizes="(min-width: 1024px) 750px, 90vw"
               priority={false}
             />
-          </div>
-
-          {/* Secondary A — bottom left */}
-          <div
-            className="absolute bottom-0 left-8 w-[55%] overflow-hidden rounded-2xl ring-1 shadow-xl hidden sm:block z-10"
-            style={{ borderColor: "rgba(2,6,23,.12)" }}
-          >
-            <div className="relative h-44 sm:h-48 md:h-52">
-              <Image
-                src="/images/about/equipotrabajando.png"
-                alt="Equipo en obra / campo"
-                fill
-                className="object-cover"
-                sizes="(min-width: 1024px) 420px, 50vw"
-                loading="lazy"
-              />
-              <div
-                className="pointer-events-none absolute inset-0"
-                style={{ background: "linear-gradient(120deg, rgba(0,159,166,.14), rgba(0,0,0,0) 55%)" }}
-              />
-            </div>
-          </div>
-
-          {/* Secondary B — right side */}
-          <div
-            className="absolute top-12 -right-4 w-[36%] overflow-hidden rounded-2xl ring-1 shadow-xl hidden sm:block z-10"
-            style={{ borderColor: "rgba(2,6,23,.12)" }}
-          >
-            <div className="relative h-56 sm:h-64 md:h-72">
-              <Image
-                src="/images/about/equipobcn.png"
-                alt="Detalle técnico: medición / equipo en canal"
-                fill
-                className="object-cover"
-                sizes="(min-width:1024px) 360px, 40vw"
-                loading="lazy"
-              />
-              <div
-                className="pointer-events-none absolute inset-0"
-                style={{
-                  background: "linear-gradient(270deg, rgba(0,159,166,.12), rgba(0,0,0,0) 60%)",
-                }}
-              />
-            </div>
           </div>
         </div>
       </Container>

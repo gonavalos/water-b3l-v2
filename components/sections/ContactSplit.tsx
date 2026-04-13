@@ -2,15 +2,37 @@
 "use client";
 
 import Container from "../ui/Container";
-import { Mail, Phone, MapPin, Clock, ArrowRight } from "lucide-react";
-import React from "react";
+import { Mail, Phone, MapPin, Clock, ArrowRight, CheckCircle2 } from "lucide-react";
+import React, { useState } from "react";
 import { useI18n } from "@/lib/i18n-context";
 
 const TEAL = "#009fa6";
 const BLUE = "#0e3a5d";
 
 export default function ContactSplit() {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
+  const [sent, setSent] = useState(false);
+  const [sending, setSending] = useState(false);
+
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setSending(true);
+    const form = e.currentTarget;
+    const data = Object.fromEntries(new FormData(form));
+    try {
+      await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      setSent(true);
+      form.reset();
+    } catch {
+      // silently fail
+    } finally {
+      setSending(false);
+    }
+  }
 
   return (
     <section
@@ -123,9 +145,14 @@ export default function ContactSplit() {
           <div className="md:col-span-7 lg:col-span-8">
             <form
               className="rounded-2xl bg-white p-6 md:p-8 ring-1 ring-slate-200 shadow-[0_20px_60px_-20px_rgba(0,0,0,.12)]"
-              method="POST"
-              action="/api/contact"
+              onSubmit={handleSubmit}
             >
+              {sent && (
+                <div className="mb-4 flex items-center gap-2 rounded-xl bg-emerald-50 border border-emerald-200 px-4 py-3 text-sm text-emerald-800">
+                  <CheckCircle2 className="h-4 w-4 shrink-0" />
+                  {locale === "en" ? "Message sent! We'll get back to you within 24–48 hours." : "Mensaje enviado. Te respondemos dentro de 24–48 h."}
+                </div>
+              )}
               <div className="grid gap-4 sm:grid-cols-2">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-slate-900">
@@ -207,10 +234,11 @@ export default function ContactSplit() {
                 </p>
                 <button
                   type="submit"
-                  className="inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-medium transition focus-visible:outline-none focus-visible:ring-2"
+                  disabled={sending}
+                  className="inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-medium transition focus-visible:outline-none focus-visible:ring-2 disabled:opacity-60"
                   style={{ backgroundColor: BLUE, color: "#fff" }}
                 >
-                  {t.contact.formSubmit}
+                  {sending ? (locale === "en" ? "Sending..." : "Enviando...") : t.contact.formSubmit}
                   <ArrowRight className="h-4 w-4" />
                 </button>
               </div>
