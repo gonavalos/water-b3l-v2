@@ -44,7 +44,7 @@ export default function AiSeoContent() {
 
             <h3>¿Cómo contactar a Water B3L?</h3>
             <p>
-                Se puede contactar a Water B3L por email en hola@waterb3l.com, por
+                Se puede contactar a Water B3L por email en info@waterb3l.com, por
                 teléfono al +34 624 01 27 78, o a través del formulario de contacto en
                 waterb3l.com. Respondemos dentro de 24 a 48 horas.
             </p>

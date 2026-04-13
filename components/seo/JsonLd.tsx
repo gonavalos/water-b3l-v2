@@ -11,7 +11,7 @@ export default function JsonLd() {
     image: "https://waterb3l.com/images/og/og-default.jpg",
     description:
       "Consultora de ingeniería hidráulica e hidrológica especializada en modelación 1D/2D, drenaje urbano y gestión del riesgo por inundación.",
-    email: "hola@waterb3l.com",
+    email: "info@waterb3l.com",
     telephone: "+34624012778",
     address: {
       "@type": "PostalAddress",

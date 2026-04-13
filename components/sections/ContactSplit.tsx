@@ -95,10 +95,10 @@ export default function ContactSplit() {
                   <div className="leading-5">
                     <div className="font-medium text-slate-900">{t.contact.emailLabel}</div>
                     <a
-                      href="mailto:hola@waterb3l.com"
+                      href="mailto:info@waterb3l.com"
                       className="text-slate-700 hover:opacity-90"
                     >
-                      hola@waterb3l.com
+                      info@waterb3l.com
                     </a>
                   </div>
                 </li>
