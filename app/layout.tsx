@@ -19,6 +19,16 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es">
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+              if (!location.hash) window.scrollTo(0, 0);
+            `,
+          }}
+        />
+      </head>
       <body className={inter.className}>
         <I18nProvider>
           <Navbar />
