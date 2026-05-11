@@ -27,11 +27,11 @@ export default function Hero() {
       <div className="min-h-[92vh] lg:min-h-screen pt-20 md:pt-24 flex items-center">
         <Container>
           <div className="max-w-[480px] lg:relative lg:right-65">
-            <h1 className="leading-[1.05]">
-              <span className="block text-4xl sm:text-5xl lg:text-[3.5rem] font-extrabold tracking-tight text-white">
+            <h1 className="leading-[1.2]">
+              <span className="block text-4xl sm:text-5xl lg:text-[3.5rem] font-extrabold tracking-tight text-white leading-[1.2]">
                 {h.titleLine1}
               </span>
-              <span className="block text-4xl sm:text-5xl lg:text-[3.5rem] font-extrabold tracking-tight"
+              <span className="block text-4xl sm:text-5xl lg:text-[3.5rem] font-extrabold tracking-tight leading-[1.2] pb-1"
                 style={{ background: "linear-gradient(90deg, #5FD6D4 0%, #0FA3B1 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>
                 {h.titleLine2}
               </span>

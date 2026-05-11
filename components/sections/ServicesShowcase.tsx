@@ -54,7 +54,17 @@ export default function ServicesShowcase() {
   };
 
   useEffect(() => { updateShadows(); }, []);
-  useEffect(() => { activeBtnRef.current?.scrollIntoView({ block: "nearest" }); updateShadows(); }, [currentId]);
+  useEffect(() => {
+    const btn = activeBtnRef.current;
+    const rail = railRef.current;
+    if (btn && rail) {
+      const top = btn.offsetTop;
+      const bottom = top + btn.offsetHeight;
+      if (top < rail.scrollTop) rail.scrollTop = top;
+      else if (bottom > rail.scrollTop + rail.clientHeight) rail.scrollTop = bottom - rail.clientHeight;
+    }
+    updateShadows();
+  }, [currentId]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
