@@ -7,7 +7,7 @@ const GlobalPresenceMap = dynamic(
     () => import("@/components/sections/GlobalPresenceMap"),
     {
         ssr: false,
-        loading: () => <div className="h-96 bg-[#06111e]" />,
+        loading: () => <div className="min-h-[720px] md:min-h-[800px] bg-[#06111e]" />,
     }
 );
 

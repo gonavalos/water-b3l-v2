@@ -1,6 +1,6 @@
 import Hero from "@/components/home/Hero";
 import About from "@/components/sections/About";
-import GlobalPresenceMap from "@/components/sections/GlobalPresenceMap";
+import GlobalPresenceMapLoader from "@/components/sections/GlobalPresenceMapLoader";
 import ServicesShowcase from "@/components/sections/ServicesShowcase";
 import CasesSpotlightSlider from "@/components/sections/CasesSpotlightSlider";
 import ContactSplit from "@/components/sections/ContactSplit";
@@ -13,7 +13,7 @@ export default function Home() {
         <>
             <Hero />
             <About />
-            <GlobalPresenceMap />
+            <GlobalPresenceMapLoader />
             <ServicesShowcase />
             <CasesSpotlightSlider cases={casesData} />
             <ContactSplit />
