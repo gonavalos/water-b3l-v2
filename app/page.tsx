@@ -8,6 +8,8 @@ import AiSeoContent from "@/components/seo/AiSeoContent";
 import { casesData } from "@/app/data/cases";
 import { servicesData } from "@/app/data/services";
 
+export const revalidate = 300;
+
 export default function Home() {
     return (
         <>
